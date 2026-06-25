@@ -1,0 +1,25 @@
+.feedContainer {
+  height: calc(100vh - 80px); /* 80px for bottom nav */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.feedContainer::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+.reelWrapper {
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
