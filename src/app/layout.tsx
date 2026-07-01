@@ -22,7 +22,10 @@ export const metadata: Metadata = {
     "SwipOlearn, swipe learning, exam preparation, SSC, Banking, UPSC, Railway, competitive exams, mock tests, quizzes",
   openGraph: {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 000d52cd095244b4af291fe0b9cb7c7f42b2d15f
     title: "SwipOlearn – Learn Faster. Swipe Smarter.",
     description:
       "The next-generation exam prep platform where every swipe helps you master concepts and crack competitive exams.",
